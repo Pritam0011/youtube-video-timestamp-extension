@@ -1,0 +1,34 @@
+{
+	"manifest_version": 3,
+	"name": "YouTube Video Timestamp Extension",
+	"description": "A Extension for marking current time of YouTube Video for future reference.",
+	"author": "Pritam Samanta",
+	"version": "1.0.0",
+	"icons": {
+		"16": "src/assets/images/logo.png",
+		"48": "src/assets/images/logo (1).png",
+		"128": "src/assets/images/logo (2).png"
+	},
+	"permissions": ["storage", "tabs"],
+	"host_permissions": ["https://www.youtube.com/*"],
+	"action": {
+		"default_title": "YouTube Timestamp",
+		"default_popup": "index.html",
+		"default_icon": {
+			"16": "src/assets/images/logo.png",
+			"48": "src/assets/images/logo (1).png",
+			"128": "src/assets/images/logo (2).png"
+		}
+	},
+
+	"content_scripts": [
+		{
+			"js": ["src/injected/ContentScript.jsx"],
+			"matches": ["https://www.youtube.com/*"]
+		}
+	],
+	"background": {
+		"service_worker": "src/service_worker/background.js",
+		"type": "module"
+	}
+}
