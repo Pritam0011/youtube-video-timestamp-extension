@@ -11,9 +11,9 @@ YouTube Video Timestamp Extension is a Chrome extension developed by Pritam0011 
 - **No Credentials Required:** Provides a seamless experience without the need for user authentication or login.
 - **React-based UI:** Utilizes React for a modern and responsive user interface.
 
-## Support API
+## Preview
+<p align="center"><img alt="youtube-video-timestamp-extension Demo" width="650" src="https://github.com/Pritam0011/youtube-video-timestamp-extension/blob/main/demo/demo.gif"></p>
 
-The email-sharing feature of the YouTube Video Timestamp Extension relies on a support API for email sending. The support API, named [YouTube Timestamp Support](https://github.com/Pritam0011/yt-timestamp-support), provides the necessary backend infrastructure for handling email requests and facilitating seamless communication between the extension and email servers.
 
 ## Installation
 
@@ -53,23 +53,15 @@ Once installed, the YouTube Video Timestamp Extension can be used to bookmark ti
 
 7. The recipient will receive an email containing the shared bookmarks.
 
+
+## Support API
+
+The email-sharing feature of the YouTube Video Timestamp Extension relies on a support API for email sending. The support API, named [YouTube Timestamp Support](https://github.com/Pritam0011/yt-timestamp-support), provides the necessary backend infrastructure for handling email requests and facilitating seamless communication between the extension and email servers.
+
 ## Inspiration and Learning
 
 This project drew inspiration and learning from the YouTube channel [freeCodeCamp.org](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ), particularly under the instruction of Raman Hundal. Raman Hundal is a professional Chrome extension developer known for his expertise in developing browser extensions using modern web technologies. His tutorials and insights provided valuable guidance and inspiration throughout the development process of the YouTube Video Timestamp Extension.
 
-## Contributing
-
-Contributions to the YouTube Video Timestamp Extension project are welcome! To contribute:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or bug fix.
-
-3. Make your changes and ensure tests pass.
-
-4. Commit your changes and push to your fork.
-
-5. Submit a pull request with a detailed description of your changes.
 
 ## License
 
